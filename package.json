@@ -1,0 +1,24 @@
+{
+  "name": "queryCommandSupported",
+  "version": "0.0.0",
+  "description": "Polyfill for document.queryCommandSupported based on user agent sniffing",
+  "repository": "zenorocha/queryCommandSupported",
+  "license": "MIT",
+  "dependencies": {
+    "bowser": "^1.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^11.2.0",
+    "karma": "^0.13.10",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^0.2.0",
+    "karma-sauce-launcher": "^0.2.14",
+    "uglify": "^0.1.5"
+  },
+  "scripts": {
+    "build": "npm run build-debug && npm run build-min",
+    "build-debug": "browserify src/queryCommandSupported.js -o dist/queryCommandSupported.js",
+    "build-min": "uglify -s dist/queryCommandSupported.js -o dist/queryCommandSupported.min.js",
+    "test": "karma start --single-run"
+  }
+}
