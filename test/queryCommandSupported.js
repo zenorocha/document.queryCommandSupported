@@ -79,7 +79,7 @@ describe('copy/cut', function() {
             assert.equal(document.queryCommandSupported('copy'), true);
         });
 
-        it('cut should be supported on Safari', function() {
+        it('cut should be supported on IE', function() {
             assert.equal(document.queryCommandSupported('cut'), true);
         });
     }
