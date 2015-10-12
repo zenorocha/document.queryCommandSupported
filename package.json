@@ -6,7 +6,8 @@
   "license": "MIT",
   "main": "dist/queryCommandSupported.js",
   "dependencies": {
-    "bowser": "^1.0.0"
+    "bowser": "^1.0.0",
+    "karma-browserify": "^4.4.0"
   },
   "devDependencies": {
     "browserify": "^11.2.0",
