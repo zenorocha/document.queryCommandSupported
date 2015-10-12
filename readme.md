@@ -1,5 +1,7 @@
 # document.queryCommandSupported
 
+[![Build Status](http://img.shields.io/travis/zenorocha/document.queryCommandSupported/master.svg?style=flat)](https://travis-ci.org/zenorocha/document.queryCommandSupported)
+
 Polyfill for [`document.queryCommandSupported`](https://developer.mozilla.org/en-US/docs/Web/API/Document/queryCommandSupported) that fixes [known bugs on Gecko](https://hacks.mozilla.org/2015/09/flash-free-clipboard-for-the-web/) and [Blink](https://developers.google.com/web/updates/2015/04/cut-and-copy-commands).
 
 > Note: Only `copy` and `cut` are polyfill'ed. Any other argument will be executed using the native function.
