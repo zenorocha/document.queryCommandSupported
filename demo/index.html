@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>document.queryCommandSupported</title>
+</head>
+<body>
+    <script src="../dist/queryCommandSupported.min.js"></script>
+
+    <script>
+    var isCopySupported = document.queryCommandSupported('copy');
+    var isCutSupported = document.queryCommandSupported('cut');
+
+    console.info('copy:', isCopySupported);
+    console.info('cut:', isCutSupported);
+    </script>
+</body>
+</html>
