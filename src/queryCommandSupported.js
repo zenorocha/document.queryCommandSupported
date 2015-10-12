@@ -23,10 +23,7 @@ document.queryCommandSupported = function(cmd) {
         }
 
         if (bowser.firefox) {
-            if (bowser.version >= 41) {
-                return true;
-            }
-            else {
+            if (bowser.version < 41) {
                 return false;
             }
         }
