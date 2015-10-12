@@ -1,8 +1,8 @@
 {
-  "name": "queryCommandSupported",
+  "name": "query-command-supported",
   "version": "1.0.0",
   "description": "Polyfill for document.queryCommandSupported that fixes known bugs on Gecko and Blink",
-  "repository": "zenorocha/queryCommandSupported",
+  "repository": "zenorocha/document.queryCommandSupported",
   "license": "MIT",
   "main": "dist/queryCommandSupported.js",
   "dependencies": {

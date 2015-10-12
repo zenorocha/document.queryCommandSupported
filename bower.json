@@ -1,5 +1,5 @@
 {
-  "name": "queryCommandSupported",
+  "name": "query-command-supported",
   "version": "1.0.0",
   "description": "Polyfill for document.queryCommandSupported that fixes known bugs on Gecko and Blink",
   "license": "MIT",

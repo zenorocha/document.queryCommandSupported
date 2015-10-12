@@ -1,4 +1,4 @@
-# queryCommandSupported
+# document.queryCommandSupported
 
 Polyfill for [`document.queryCommandSupported`](https://developer.mozilla.org/en-US/docs/Web/API/Document/queryCommandSupported) that fixes [known bugs on Gecko](https://hacks.mozilla.org/2015/09/flash-free-clipboard-for-the-web/) and [Blink](https://developers.google.com/web/updates/2015/04/cut-and-copy-commands).
 
@@ -9,16 +9,16 @@ Polyfill for [`document.queryCommandSupported`](https://developer.mozilla.org/en
 You can get it on npm.
 
 ```
-npm install queryCommandSupported --save
+npm install query-command-supported --save
 ```
 
 Or bower, too.
 
 ```
-bower install queryCommandSupported --save
+bower install query-command-supported --save
 ```
 
-If you're not into package management, just [download a ZIP](https://github.com/zenorocha/queryCommandSupported/archive/master.zip) file.
+If you're not into package management, just [download a ZIP](https://github.com/zenorocha/document.queryCommandSupported/archive/master.zip) file.
 
 ## Usage
 
