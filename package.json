@@ -1,9 +1,10 @@
 {
   "name": "queryCommandSupported",
-  "version": "0.0.0",
-  "description": "Polyfill for document.queryCommandSupported based on user agent sniffing",
+  "version": "1.0.0",
+  "description": "Polyfill for document.queryCommandSupported that fixes known bugs on Gecko and Blink",
   "repository": "zenorocha/queryCommandSupported",
   "license": "MIT",
+  "main": "dist/queryCommandSupported.js",
   "dependencies": {
     "bowser": "^1.0.0"
   },
