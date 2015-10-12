@@ -8,24 +8,20 @@ document.queryCommandSupported = function(cmd) {
             if (bowser.version >= 43) {
                 return true;
             }
-            else {
-                return false;
-            }
+
+            return false;
         }
 
         if (bowser.opera) {
             if (bowser.version >= 30) {
                 return true;
             }
-            else {
-                return false;
-            }
+
+            return false;
         }
 
-        if (bowser.firefox) {
-            if (bowser.version < 41) {
-                return false;
-            }
+        if (bowser.firefox && bowser.version < 41) {
+            return false;
         }
     }
 
